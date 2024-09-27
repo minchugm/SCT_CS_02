@@ -39,7 +39,6 @@ def decrypt_image(input_path, output_path, key):
 
 input_image = r"C:\Users\minch\Documents\input.jpg"
 encrypted_image = r"C:\Users\minch\Documents\encrypted_image.jpg"
-decrypted_image = r"C:\Users\abu76\Desktop\Internship-01\Task-02\encrypted_image.jpg"
-
+decrypted_image = r"C:\Users\minch\Documents\decrypted_image.jpg"
 encrypt_image(input_image, encrypted_image, key=None)
 decrypt_image(encrypted_image, decrypted_image, key=None)
